@@ -1,5 +1,5 @@
-# 中国行政区划数据，省市区（县）镇村共五级
-20160823 更新自 [http://www.stats.gov.cn/tjsj/tjbz/tjyqhdmhcxhfdm/2015/index.html](http://www.stats.gov.cn/tjsj/tjbz/tjyqhdmhcxhfdm/2015/index.html "中国国家统计局2015")，共 **707679** 条数据
+# 中国行政区划数据，省市区（县）镇村（乡）共五级
+20160825 更新自 [http://www.stats.gov.cn/tjsj/tjbz/tjyqhdmhcxhfdm/2015/index.html](http://www.stats.gov.cn/tjsj/tjbz/tjyqhdmhcxhfdm/2015/index.html "中国国家统计局2015")，共 **710740** 条数据
 
 ### 数据库为：MYSQL，表结构如下：
 ```sql
@@ -18,3 +18,9 @@ ENGINE=MyISAM;
 ```
 
 使用自取，如果有用，支持请访问：[bbmz.org](http://bbmz.org "斌斌妹子")
+
+## 更新记录：
+更新日期 | 条数 | 说明
+----|------|----
+| 20160824        | 707679           | 新建项目，初次更新  |
+| 20160826        | 710740           | 调整更新脚本，再次更新  |
