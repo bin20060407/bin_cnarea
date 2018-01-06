@@ -1,5 +1,5 @@
 # 中国行政区划数据，省市区（县）镇村（乡）共五级
-20160825 更新自 [http://www.stats.gov.cn/tjsj/tjbz/tjyqhdmhcxhfdm/2015/index.html](http://www.stats.gov.cn/tjsj/tjbz/tjyqhdmhcxhfdm/2015/index.html "中国国家统计局2015")，共 **710740** 条数据
+20180106 更新自 [http://www.stats.gov.cn/tjsj/tjbz/tjyqhdmhcxhfdm/2016/index.html](http://www.stats.gov.cn/tjsj/tjbz/tjyqhdmhcxhfdm/2016/index.html "中国国家统计局2016")，共 **712823** 条数据
 
 ### 数据库为：MYSQL，表结构如下：
 ```sql
@@ -24,3 +24,4 @@ ENGINE=MyISAM;
 ----|------|----
 | 20160824        | 707679           | 新建项目，初次更新  |
 | 20160826        | 710740           | 调整更新脚本，再次更新  |
+| 20180106        | 712823           | 根据最新发布更新  |
