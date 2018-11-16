@@ -27,7 +27,7 @@ ENGINE=MyISAM;
 | 20160826        | 710740           | 调整更新脚本，再次更新  |
 | 20180106        | 712823           | 根据最新发布更新  | [2016年统计用区划代码和城乡划分代码](http://www.stats.gov.cn/tjsj/tjbz/tjyqhdmhcxhfdm/2016/index.html "2016年统计用区划代码和城乡划分代码")
 | 20180815        | 719474           | 根据2018-06-20发布更新   |[2017年统计用区划代码和城乡划分代码](http://www.stats.gov.cn/tjsj/tjbz/tjyqhdmhcxhfdm/2017/index.html "2017年统计用区划代码和城乡划分代码")
-| 20180815        | 719744           | 修正数据中第三级缺少“市辖区” 问题  |[2017年统计用区划代码和城乡划分代码](http://www.stats.gov.cn/tjsj/tjbz/tjyqhdmhcxhfdm/2017/index.html "2017年统计用区划代码和城乡划分代码")
+| 20181116        | 719744           | 修正数据中第三级缺少“市辖区” 问题  |[2017年统计用区划代码和城乡划分代码](http://www.stats.gov.cn/tjsj/tjbz/tjyqhdmhcxhfdm/2017/index.html "2017年统计用区划代码和城乡划分代码")
 
 ## 附注
  > 本项目数据皆抓取自统计局网站，为避免对网站访问带来影响，只是用单线程采集，且每获取100次，sleep一分钟
