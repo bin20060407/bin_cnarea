@@ -2,6 +2,9 @@
 ## 使用说明
 20190314 更新自 [2018年统计用区划代码和城乡划分代码(截止2018年10月31日)](http://www.stats.gov.cn/tjsj/tjbz/tjyqhdmhcxhfdm/2018/index.html "2018年统计用区划代码和城乡划分代码(截止2018年10月31日")，共 **712182** 条数据
 
+## 在线测试
+[https://manlt.com/bin_cnarea/](http://https://manlt.com/bin_cnarea/ "bin_cnarea China region data test demo")
+
 ### 数据库为：MYSQL，表结构如下：
 ```sql
 CREATE TABLE `bin_cnarea` (
@@ -40,7 +43,7 @@ ENGINE=InnoDB
 - 使用队列来保证任务可靠性，也方便失败后进行重试
 
 ## Todo
-- [ ] 提供在线 demo，方便查看数据
+- [x] 提供在线 demo，方便查看数据
 
 ## 附注
  > 本项目数据皆抓取自统计局网站，为避免对网站访问带来影响，只是用单线程采集，且每获取100次，sleep一分钟
