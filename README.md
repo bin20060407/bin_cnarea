@@ -3,7 +3,7 @@
 20190314 更新自 [2018年统计用区划代码和城乡划分代码(截止2018年10月31日)](http://www.stats.gov.cn/tjsj/tjbz/tjyqhdmhcxhfdm/2018/index.html "2018年统计用区划代码和城乡划分代码(截止2018年10月31日")，共 **712182** 条数据
 
 ## 在线测试
-[https://manlt.com/bin_cnarea/](http://https://manlt.com/bin_cnarea/ "bin_cnarea China region data test demo")
+[https://manlt.com/bin_cnarea/](https://manlt.com/bin_cnarea/ "bin_cnarea China region data test demo")
 
 ### 数据库为：MYSQL，表结构如下：
 ```sql
@@ -37,6 +37,9 @@ ENGINE=InnoDB
 | 20190314        | 712182           | 根据最新发布更新  | [2018年统计用区划代码和城乡划分代码(截止2018年10月31日)](http://www.stats.gov.cn/tjsj/tjbz/tjyqhdmhcxhfdm/2018/index.html "2018年统计用区划代码和城乡划分代码(截止2018年10月31日") |
 
 ---
+### 20190325 更新
+- 新增在线数据显示 demo，demo 显示数据为静态 json 数据
+
 ### 20190314 更新
 - 采用全新脚本获取数据，所有 `URL` 全部入库，共计：46829
 - 由一个脚本分解成 `城市`、`县`，`镇`、`村`分开处理
